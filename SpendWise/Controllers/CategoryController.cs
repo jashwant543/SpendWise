@@ -26,7 +26,7 @@ namespace SpendWise.Controllers
 
 
         // GET: Category/AddorEdit
-        public IActionResult AddorEdit(int id = 0)
+        public IActionResult AddOrEdit(int id = 0)
         {
             if (id == 0)
                 return View(new Category());
@@ -39,7 +39,7 @@ namespace SpendWise.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddorEdit([Bind("CategoryId,Title,Icon,Type")] Category category)
+        public async Task<IActionResult> AddOrEdit([Bind("CategoryId,Title,Icon,Type")] Category category)
         {
             if (ModelState.IsValid)
             {

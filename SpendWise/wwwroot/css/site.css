@@ -34,6 +34,11 @@ body {
     box-shadow: none;
 }
 
+/*BreadCrumb*/
+.e-breadcrumb a, .e-breadcrumb a:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
 /*Hyperlink*/
 .no-a-decoration, .no-a-decoration:hover {
     text-decoration: none;
