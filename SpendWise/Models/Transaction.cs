@@ -33,7 +33,9 @@ namespace SpendWise.Models
         {
             get
             {
-                return ((Category == null || Category.Type == "Expense") ? "- " : "+ ") + Amount.ToString("C0");
+                //return ((Category == null || Category.Type == "Expense") ? "- " : "+ ") + Amount.ToString("C0");
+                var culture = new System.Globalization.CultureInfo("en-IN");
+                return ((Category == null || Category.Type == "Expense") ? "- " : "+ ") + Amount.ToString("C0", culture);
             }
         }
 
