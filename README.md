@@ -21,14 +21,17 @@ This repository contains a complete Asp.Net Core application demonstrating the d
 
 Here are some screenshots from the SpendWise application:
 
-![Dashboard](SpendWise/screenshots/dashboard.png)
+**Dashboard**
+![Dashboard](SpendWise/screenshots/dashboard1.png)
 ![Dashboard](SpendWise/screenshots/dashboard2.png)
 *Dashboard displaying expense trends and summaries for SpendWise.*
 
+**Transaction**
 ![Transaction Grid](SpendWise/screenshots/transaction.png)
-![Transaction Grid](SpendWise/screenshots/newTransaction.png)
+![Transaction Grid](SpendWise/screenshots/newtTransaction.png)
 *Transaction grid with paging and sorting functionality for SpendWise.*
 
+**Category**
 ![Category Management](SpendWise/screenshots/Category.png)
 ![Category Management](SpendWise/screenshots/newCategory.png)
 *CRUD operations for managing expense categories in SpendWise.*
